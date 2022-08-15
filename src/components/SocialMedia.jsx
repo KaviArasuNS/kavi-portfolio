@@ -8,12 +8,12 @@ const SocialMedia = () => {
     <div>
       <a href="https://www.twitter.com/kaviarasu_ns"><BsTwitter/></a> 
     </div>
-    <div>
+    {/* <div>
       <FaFacebookF />
     </div>
     <div>
       <BsInstagram />
-    </div>
+    </div> */}
   </div>
   )
 }
