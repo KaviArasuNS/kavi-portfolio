@@ -130,7 +130,7 @@ const Work = () => {
                   textDecoration: "none",
                   color: "#fb3f6f",
                   fontWeight: "bold",
-                  padding: "5px",
+                  margin: "10px 0px",
                   fontFamily: "Merriweather",
                 }}
               >
@@ -143,8 +143,9 @@ const Work = () => {
                   textDecoration: "none",
                   color: "#b03ffb",
                   fontWeight: "bold",
-                  padding: "5px",
+                  margin: "10px 0px",
                   fontFamily: "Merriweather",
+                  marginTop: "5px",
                 }}
               >
                 Frontend Source Code
@@ -156,7 +157,7 @@ const Work = () => {
                   textDecoration: "none",
                   color: "#b03ffb",
                   fontWeight: "bold",
-                  padding: "5px",
+                  margin: "10px 0px",
                   fontFamily: "Merriweather",
                 }}
               >
