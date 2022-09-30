@@ -4,7 +4,7 @@ import { BsTwitter, BsInstagram } from "react-icons/bs";
 // import { FaGithub } from "react-icons/fa";
 import { BsGithub } from "react-icons/bs";
 import { BsLinkedin } from "react-icons/bs";
-
+import { BsFillPersonLinesFill } from "react-icons/bs";
 const SocialMedia = () => {
   return (
     <div className="app__social">
@@ -13,14 +13,22 @@ const SocialMedia = () => {
           <BsGithub />
         </a>
       </div>
-      <div>
+      {/* <div>
         <a href="https://www.twitter.com/kaviarasu_ns" target="_blank">
           <BsTwitter />
         </a>
-      </div>
+      </div> */}
       <div>
         <a href="https://www.linkedin.com/in/kaviarasuns/" target="_blank">
           <BsLinkedin />
+        </a>
+      </div>
+      <div>
+        <a
+          href="https://drive.google.com/file/d/1FUVp-F2mQkPM3pgbLJU7pZDmIOu8dWo-/view?usp=sharing"
+          target="_blank"
+        >
+          <BsFillPersonLinesFill />
         </a>
       </div>
     </div>

@@ -89,6 +89,7 @@ const Work = () => {
                     a
                     className="app__flex"
                   >
+                    Deployed
                     <AiFillEye />
                   </motion.div>
                 </a>
@@ -100,6 +101,19 @@ const Work = () => {
                     className="app__flex"
                   >
                     <AiFillGithub />
+                    Frontend
+                  </motion.div>
+                </a>
+
+                <a href={work.backEndCodeLink} target="_blank" rel="noreferrer">
+                  <motion.div
+                    whileInView={{ scale: [0, 1] }}
+                    whileHover={{ scale: [1, 0.9] }}
+                    transition={{ duration: 0.25 }}
+                    className="app__flex"
+                  >
+                    <AiFillGithub />
+                    Backend
                   </motion.div>
                 </a>
               </motion.div>
@@ -109,6 +123,42 @@ const Work = () => {
               <p className="p-text" style={{ marginTop: 10 }}>
                 {work.description}
               </p>
+              <a
+                href={work.projectLink}
+                target="_blank"
+                style={{
+                  textDecoration: "none",
+                  color: "green",
+                  fontWeight: "bold",
+                  padding: "5px",
+                }}
+              >
+                Deployment Link
+              </a>
+              <a
+                href={work.codeLink}
+                target="_blank"
+                style={{
+                  textDecoration: "none",
+                  color: "green",
+                  fontWeight: "bold",
+                  padding: "5px",
+                }}
+              >
+                Frontend Source Code
+              </a>
+              <a
+                href={work.backEndCodeLink}
+                target="_blank"
+                style={{
+                  textDecoration: "none",
+                  color: "green",
+                  fontWeight: "bold",
+                  padding: "5px",
+                }}
+              >
+                Backend Source Code
+              </a>
 
               <div className="app__work-tag app__flex">
                 <p className="p-text">{work.tags[0]}</p>
