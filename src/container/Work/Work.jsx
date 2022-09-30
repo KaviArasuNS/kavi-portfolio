@@ -128,9 +128,10 @@ const Work = () => {
                 target="_blank"
                 style={{
                   textDecoration: "none",
-                  color: "green",
+                  color: "#fb3f6f",
                   fontWeight: "bold",
                   padding: "5px",
+                  fontFamily: "Merriweather",
                 }}
               >
                 Deployment Link
@@ -140,9 +141,10 @@ const Work = () => {
                 target="_blank"
                 style={{
                   textDecoration: "none",
-                  color: "green",
+                  color: "#b03ffb",
                   fontWeight: "bold",
                   padding: "5px",
+                  fontFamily: "Merriweather",
                 }}
               >
                 Frontend Source Code
@@ -152,9 +154,10 @@ const Work = () => {
                 target="_blank"
                 style={{
                   textDecoration: "none",
-                  color: "green",
+                  color: "#b03ffb",
                   fontWeight: "bold",
                   padding: "5px",
+                  fontFamily: "Merriweather",
                 }}
               >
                 Backend Source Code
