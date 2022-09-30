@@ -43,19 +43,23 @@ const Work = () => {
       </h2>
 
       <div className="app__work-filter">
-        {["Ecommerce App", "Project Management App", "GraphQL", "All"].map(
-          (item, index) => (
-            <div
-              key={index}
-              onClick={() => handleWorkFilter(item)}
-              className={`app__work-filter-item app__flex p-text ${
-                activeFilter === item ? "item-active" : ""
-              }`}
-            >
-              {item}
-            </div>
-          )
-        )}
+        {[
+          "Ecommerce App",
+          "Project Management App",
+          "Team Republic - Blog Website",
+          "Stack Overflow",
+          "All",
+        ].map((item, index) => (
+          <div
+            key={index}
+            onClick={() => handleWorkFilter(item)}
+            className={`app__work-filter-item app__flex p-text ${
+              activeFilter === item ? "item-active" : ""
+            }`}
+          >
+            {item}
+          </div>
+        ))}
       </div>
 
       <motion.div
@@ -82,6 +86,7 @@ const Work = () => {
                     whileInView={{ scale: [0, 1] }}
                     whileHover={{ scale: [1, 0.9] }}
                     transition={{ duration: 0.25 }}
+                    a
                     className="app__flex"
                   >
                     <AiFillEye />
