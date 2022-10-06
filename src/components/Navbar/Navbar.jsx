@@ -24,6 +24,7 @@ const Navbar = () => {
       </ul>
       <a
         href="https://drive.google.com/file/d/1FUVp-F2mQkPM3pgbLJU7pZDmIOu8dWo-/view?usp=sharing"
+        rel="noreferrer"
         target="_blank"
         style={{ textDecoration: "none", marginRight: "10px" }}
       >
