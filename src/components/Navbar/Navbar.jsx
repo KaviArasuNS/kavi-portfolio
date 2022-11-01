@@ -31,6 +31,15 @@ const Navbar = () => {
         <Button variant="contained">Resume</Button>
       </a>
 
+      <a
+        href="https://www.guvi.in/certificate?id=76Nr1Oq3c297387b66"
+        rel="noreferrer"
+        target="_blank"
+        style={{ textDecoration: "none", marginRight: "10px" }}
+      >
+        <Button variant="contained">My Recent Certification</Button>
+      </a>
+
       <div className="app__navbar-menu">
         <HiMenuAlt4 onClick={() => setToggle(true)} />
         {toggle && (
