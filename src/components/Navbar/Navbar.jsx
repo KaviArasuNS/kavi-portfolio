@@ -23,7 +23,7 @@ const Navbar = () => {
         ))}
       </ul>
       <a
-        href="https://drive.google.com/file/d/1v9PSDBnNc5Wp11WCmN_PspfkR1VfRz28/view?usp=sharing"
+        href="https://drive.google.com/file/d/1J9WkLYnAKF8LEgWRJj9_TA3Us9HhpY-h/view?usp=sharing"
         rel="noreferrer"
         target="_blank"
         style={{ textDecoration: "none", marginRight: "10px" }}
